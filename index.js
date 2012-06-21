@@ -1,4 +1,3 @@
-
 var animals = ['aardvark','addax','alligator','alpaca','anteater','antelope','aoudad','ape',
     'argali','armadillo','ass','baboonbadger','basilisk','bat','bear','beaver','bighorn',
     'bison','boar','budgerigar','buffalo','bull','bunny','burro','camel','canary','capybara',
@@ -22,6 +21,6 @@ var animals = ['aardvark','addax','alligator','alpaca','anteater','antelope','ao
 
 export = {};
 
-export.randAnimal = function(){
+export.rand = function(){
     var index = Math.floor(Math.random()*(animals.length-1));
     return this.animals[index];
