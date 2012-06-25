@@ -1,3 +1,4 @@
+
 var animals = ['aardvark','addax','alligator','alpaca','anteater','antelope','aoudad','ape',
     'argali','armadillo','ass','baboonbadger','basilisk','bat','bear','beaver','bighorn',
     'bison','boar','budgerigar','buffalo','bull','bunny','burro','camel','canary','capybara',
@@ -16,11 +17,11 @@ var animals = ['aardvark','addax','alligator','alpaca','anteater','antelope','ao
     'reptile','rhinoceros','roebuck','salamander','seal','sheep','shrew','skunk','sloth','snake',
     'springbok','squirrel','stallion','steer','tapir','tiger','toad','turtle','vicuna','walrus',
     'warthog','waterbuck','weasel','whale','wildcat','wolf','wolverine','wombat','woodchuck',
-    'yak','zebra','zebu'],
+    'yak','zebra','zebu'];
 
+exports = {};
 
-export = {};
-
-export.rand = function(){
-    var index = Math.floor(Math.random()*(animals.length-1));
-    return this.animals[index];
+exports.rand = function(){
+  var index = Math.floor(Math.random()*(animals.length-1));
+  return this.animals[index]
+};
