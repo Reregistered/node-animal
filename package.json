@@ -1,0 +1,14 @@
+{
+    "name": "node-animal"
+  , "version": "0.0.1"
+  , "description": "Simple animal generator"
+  , "repository" :
+	  { "type" : "git"
+	    , "url" : "http://github.com/reregistered/node-animal.git"
+	  }
+  , "author": "Dov Amihod "
+  , "dependencies": {
+  }
+  , "main": "index"
+  , "engines": { "node": ">= 0.4.0 < 0.7.0" }
+}
