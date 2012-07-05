@@ -19,9 +19,7 @@ var animals = ['aardvark','addax','alligator','alpaca','anteater','antelope','ao
     'warthog','waterbuck','weasel','whale','wildcat','wolf','wolverine','wombat','woodchuck',
     'yak','zebra','zebu'];
 
-exports = {};
-
 exports.rand = function(){
   var index = Math.floor(Math.random()*(animals.length-1));
-  return this.animals[index]
+  return animals[index]
 };
