@@ -1,3 +1,5 @@
+[lagoa](http://home.lagoa.com/wp-content/uploads/2013/08/Logo_Transparent_white.png)
+
 node-animal
 ===========
 
